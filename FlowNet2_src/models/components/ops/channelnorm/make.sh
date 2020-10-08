@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-PYTHON=${PYTHON:-"python"}
+PYTHON=${PYTHON:-"python3"}
 TORCH=$($PYTHON -c "import os; import torch; print(os.path.dirname(torch.__file__))")
 
 cd src

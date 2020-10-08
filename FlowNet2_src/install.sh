@@ -1,5 +1,5 @@
 #!/bin/bash
-PYTHON=${PYTHON:-"python"}
+PYTHON=${PYTHON:-"python3"}
 
 cd ./models/components/ops/correlation
 PYTHON=$PYTHON ./make.sh
